@@ -114,12 +114,58 @@
 # else:
 #     print(b) # оператор if & else
 
-username = input ('Введите имя: ')
-if username == 'Маша':
-    print('Ура, это же Маша!')
-elif username == 'Марина':
-    print('Я так ждала Вас, Марина!')
-elif username == 'Ильнар':
-    print('Ильнар - топ')
-else:
-    print('Привет', username)
+# username = input ('Введите имя: ')
+# if username == 'Маша':
+#     print('Ура, это же Маша!')
+# elif username == 'Марина':
+#     print('Я так ждала Вас, Марина!')
+# elif username == 'Ильнар':
+#     print('Ильнар - топ')
+# else:
+#     print('Привет', username)
+
+# original = 23
+# inverted = 0
+# while original != 0:
+#     inverted = inverted * 10 + (original % 10)
+#     original //= 10
+# print(inverted)  # цикл while
+
+# original = 23
+# inverted = 0
+# while original != 0:
+#     inverted = inverted * 10 + (original % 10)
+#     original //= 10
+# else:
+#     print('Пожалуй')
+#     print('хватит )')
+# print(inverted)  # цикл while и else
+
+# for i in 1,2,3,4,5:
+#     print(i**2)
+
+# list = [1,2,3,4,10,5]
+# for i in list:
+#     print(i**2) # цикл for
+
+# r = range(1, 5)
+# for i in r:
+#     print(i) # показывает числа от 0 до указанного числа в скобках (10), либо в диапазоне: range(1,10)
+
+# r = range(1, 5, 2)
+# for i in r:
+#     print(i) # показывает числа с приращением третьего числа к каждому числу диапазона ,
+    # но если число будет больше крайнего числа диапазона то не будет отражено
+
+#help(isinstance)    # спрака о том что делает та или иная функция. В скобках нужно указать функцию
+
+# def f(x):
+#     if x == 1:
+#         return 'Целое'
+#     elif x == 2.3:
+#         return 23
+#     else:
+#         return   
+# arg = 2
+# print (f(arg))    
+# print (type(f(arg)) )      # функция
